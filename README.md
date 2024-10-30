@@ -1,14 +1,18 @@
 # SQL-Data-exploration-Project
 
 Covid data from ourworldindata.org was used to create tables in snowflake.  
+
 Link to Dataset: https://ourworldindata.org/covid-deaths
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+**Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types**
 
 
 SELECT * from covid_deaths limit 100;
+
 SELECT * from covid_vacc limit 100;
 
 **--Select data that we are going to use**
+
 Select "LOCATION", "DATE","TOTAL_CASES","NEW_CASES","TOTAL_DEATHS","POPULATION" FROM COVID_DEATHS ORDER BY 1,2;
 
 **--Total cases vs total deaths**
