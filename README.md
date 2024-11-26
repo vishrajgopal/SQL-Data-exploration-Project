@@ -13,7 +13,8 @@ SELECT * from covid_vacc limit 100;
 
 **--Select data that we are going to use**
 
-Select "LOCATION", "DATE","TOTAL_CASES","NEW_CASES","TOTAL_DEATHS","POPULATION" FROM COVID_DEATHS ORDER BY 1,2;
+![image](https://github.com/user-attachments/assets/d7723260-acd8-4967-9d60-97636b6728a4)
+
 
 **--Total cases vs total deaths**
 
