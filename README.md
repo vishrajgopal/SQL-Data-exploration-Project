@@ -13,7 +13,7 @@ SELECT * from covid_vacc limit 100;
 
 **--Select data that we are going to use**
 
-![image](https://github.com/user-attachments/assets/d7723260-acd8-4967-9d60-97636b6728a4)
+![image](https://github.com/user-attachments/assets/b2d4c56d-87b1-4b1b-a8ff-c150d10e8efd)
 
 
 **--Total cases vs total deaths**
