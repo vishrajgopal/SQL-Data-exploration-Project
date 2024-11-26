@@ -11,21 +11,20 @@ SELECT * from covid_deaths limit 100;
 
 SELECT * from covid_vacc limit 100;
 
-**--Select data that we are going to use**
+**Select data that we are going to use**
 
 ![image](https://github.com/user-attachments/assets/a6ff120a-9567-42bd-a3e2-abae4c9239a0)
 
 
 
-**--Total cases vs total deaths**
+**Total cases vs total deaths**
 
-Select "LOCATION", "DATE","TOTAL_CASES","TOTAL_DEATHS",("TOTAL_DEATHS"/"TOTAL_CASES")*100 as "Death Percentage"
-FROM COVID_DEATHS ORDER BY 1,2;
+![image](https://github.com/user-attachments/assets/6ec4bdb2-bcb0-47de-a473-b3229903006f)
+
 
 **--Total cases vs total deaths filter by country**
 
-Select "LOCATION", "DATE","TOTAL_CASES","TOTAL_DEATHS",("TOTAL_DEATHS"/"TOTAL_CASES")*100 as "Death Percentage"
-FROM COVID_DEATHS Where "LOCATION" like 'India';
+![image](https://github.com/user-attachments/assets/834e7e82-9f8c-4a5b-b2fd-29cda6ad5969)
 
 
 **--Total cases vs Population (Shows what percetage of population got covid)**
